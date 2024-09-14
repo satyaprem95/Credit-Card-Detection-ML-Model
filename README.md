@@ -42,6 +42,7 @@ Recall (fraud): Improved from 83% to 89% after threshold adjustment.
 Precision (fraud): Dropped to 70% due to increased sensitivity and false positives.
 F1-Score (fraud): 0.78 after threshold tuning.
 ROC-AUC Score: 0.97
+
 Results
 The final model achieved a recall of 89% for fraudulent transactions, meaning it detects the majority of fraud cases, even with the trade-off of some false positives.
 The precision dropped to 70% after lowering the threshold, reflecting an increase in false alarms, which is a common trade-off when prioritizing fraud detection.
