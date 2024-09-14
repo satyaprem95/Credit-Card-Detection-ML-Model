@@ -1,16 +1,24 @@
 # Credit-Card-Detection-ML-Model
 
 Project Overview
+
 This project aims to build a machine learning model to detect fraudulent credit card transactions. Given the highly imbalanced nature of the dataset, where fraudulent transactions are rare, the project uses various techniques like SMOTE to handle class imbalance, along with performance evaluation using precision, recall, F1-score, and ROC-AUC score.
 
 Dataset
+
 The dataset used for this project is a highly imbalanced dataset of European card transactions over two days, containing both fraudulent and non-fraudulent transactions. The columns include:
 
 Time: Time elapsed between the transaction and the first transaction in the dataset.
+
 V1 to V28: PCA-transformed features for anonymization.
+
 Amount: Transaction amount in dollars.
+
 Class: Target variable (0 for non-fraudulent, 1 for fraudulent).
+
 Project Workflow
+
+
 Data Exploration and Preprocessing:
 
 Loaded the dataset and checked for missing values (no missing data found).
