@@ -1,4 +1,4 @@
-# Credit-Card-Detection-ML-Model
+# Credit-Card-Fraud-Detection-ML-Model
 
 Project Overview
 
